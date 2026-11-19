@@ -39,13 +39,12 @@ npm ci --prefix server
 cp server/.env.example server/.env
 ```
 
-Create a local PostgreSQL database, then set `DATABASE_URL` and a
-`SESSION_SECRET` of at least 32 characters in `server/.env`. Follow the
-[database migration steps](docs/server.md#database-changes) to initialize the schema.
-Create your first account and start the web app and API.
+Set a `SESSION_SECRET` of at least 32 characters in `server/.env`, then follow
+[Initialize a new database](docs/server.md#initialize-a-new-database) to configure
+PostgreSQL, apply the schema, and create your account. Start the app from the
+repository root.
 
 ```sh
-npm run create-user --prefix server -- reader@example.com --admin
 npm run dev
 ```
 
