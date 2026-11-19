@@ -1,0 +1,28 @@
+import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+import { afterEach, expect, it, vi } from 'vitest';
+import { MemoryRouter } from 'react-router';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReadDataContext, httpReadData } from '@/data/readData';
+import { WriteDataContext, httpWriteData } from '@/data/writeData';
+import { CompanionContext } from '@/data/capabilities';
+import { clearFormDrafts } from '@/hooks/useFormDraftState';
+import { AuthorForm } from './AuthorForm';
+afterEach(()=>{cleanup();clearFormDrafts();});
+it('creates a missing country explicitly, selects it alongside an existing country, and retains author fields',async()=>{
+  const countries=[{id:1,name:'Canada'}];
+  const createCatalog=vi.fn(async(_kind:string,name:string)=>{const c={id:2,name};countries.push(c);return c;});
+  const submit=vi.fn();
+  render(<MemoryRouter initialEntries={['/authors/new']}><QueryClientProvider client={new QueryClient({defaultOptions:{queries:{retry:false}}})}><CompanionContext value={true}><ReadDataContext value={{...httpReadData,countries:{list:async()=>[...countries]}}}><WriteDataContext value={{...httpWriteData,createCatalog}}><AuthorForm heading="Add author" submitLabel="Save" cancelTo="/authors" isPending={false} error={null} onSubmit={submit}/></WriteDataContext></ReadDataContext></CompanionContext></QueryClientProvider></MemoryRouter>);
+  fireEvent.change(screen.getByLabelText('Last name'),{target:{value:'Writer'}});
+  await waitFor(()=>expect(screen.getByLabelText('Countries').hasAttribute('disabled')).toBe(false));
+  fireEvent.keyDown(screen.getByLabelText('Countries'), {key:'ArrowDown'});
+  fireEvent.click(await screen.findByRole('option',{name:'Canada'}));
+  fireEvent.change(screen.getByLabelText('Countries'),{target:{value:'France'}});
+  fireEvent.click(screen.getByRole('button',{name:'Create country “France”'}));
+  await screen.findAllByText('France');
+  expect((screen.getByLabelText('Last name') as HTMLInputElement).value).toBe('Writer');
+  fireEvent.keyDown(screen.getByLabelText('Countries'), {key:'Escape'});
+  fireEvent.click(screen.getByRole('button',{name:'Save'}));
+  expect(submit).toHaveBeenCalledWith(expect.objectContaining({lastName:'Writer',countryIds:[1,2]}));
+  expect(createCatalog).toHaveBeenCalledWith('countries','France');
+});

@@ -1,0 +1,1042 @@
+[
+  {
+    "id": 1,
+    "bookId": 1,
+    "startedOn": "2024-01-01",
+    "finishedOn": "2024-01-04",
+    "format": "Print",
+    "rating": null
+  },
+  {
+    "id": 2,
+    "bookId": 48,
+    "startedOn": "2024-01-07",
+    "finishedOn": "2024-01-11",
+    "format": "Kindle",
+    "rating": 10
+  },
+  {
+    "id": 3,
+    "bookId": 95,
+    "startedOn": "2024-01-14",
+    "finishedOn": "2024-01-19",
+    "format": "Print",
+    "rating": 6
+  },
+  {
+    "id": 4,
+    "bookId": 17,
+    "startedOn": "2024-01-29",
+    "finishedOn": "2024-02-04",
+    "format": "Audiobook",
+    "rating": 7
+  },
+  {
+    "id": 5,
+    "bookId": 64,
+    "startedOn": "2024-01-31",
+    "finishedOn": "2024-02-07",
+    "format": "Print",
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "bookId": 111,
+    "startedOn": "2024-02-03",
+    "finishedOn": "2024-02-11",
+    "format": "Kindle",
+    "rating": 9
+  },
+  {
+    "id": 7,
+    "bookId": 33,
+    "startedOn": "2024-02-06",
+    "finishedOn": "2024-02-15",
+    "format": "Print",
+    "rating": 8
+  },
+  {
+    "id": 8,
+    "bookId": 80,
+    "startedOn": "2024-02-09",
+    "finishedOn": "2024-02-19",
+    "format": "Audiobook",
+    "rating": null
+  },
+  {
+    "id": 9,
+    "bookId": 2,
+    "startedOn": "2024-02-12",
+    "finishedOn": "2024-02-23",
+    "format": "Print",
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "bookId": 49,
+    "startedOn": "2024-02-21",
+    "finishedOn": "2024-03-04",
+    "format": "Kindle",
+    "rating": 8
+  },
+  {
+    "id": 11,
+    "bookId": 96,
+    "startedOn": "2024-02-25",
+    "finishedOn": "2024-03-09",
+    "format": "Print",
+    "rating": 10
+  },
+  {
+    "id": 12,
+    "bookId": 18,
+    "startedOn": "2024-03-01",
+    "finishedOn": "2024-03-15",
+    "format": "Audiobook",
+    "rating": 6
+  },
+  {
+    "id": 13,
+    "bookId": 65,
+    "startedOn": "2024-03-06",
+    "finishedOn": "2024-03-21",
+    "format": "Print",
+    "rating": 7
+  },
+  {
+    "id": 14,
+    "bookId": 112,
+    "startedOn": "2024-03-19",
+    "finishedOn": "2024-04-04",
+    "format": "Kindle",
+    "rating": 4
+  },
+  {
+    "id": 15,
+    "bookId": 34,
+    "startedOn": "2024-03-20",
+    "finishedOn": "2024-04-06",
+    "format": "Print",
+    "rating": null
+  },
+  {
+    "id": 16,
+    "bookId": 81,
+    "startedOn": "2024-03-22",
+    "finishedOn": "2024-04-09",
+    "format": "Audiobook",
+    "rating": 8
+  },
+  {
+    "id": 17,
+    "bookId": 3,
+    "startedOn": "2024-03-24",
+    "finishedOn": "2024-04-12",
+    "format": "Print",
+    "rating": 9
+  },
+  {
+    "id": 18,
+    "bookId": 50,
+    "startedOn": "2024-03-26",
+    "finishedOn": "2024-04-15",
+    "format": "Kindle",
+    "rating": 5
+  },
+  {
+    "id": 19,
+    "bookId": 97,
+    "startedOn": "2024-03-28",
+    "finishedOn": "2024-04-18",
+    "format": "Print",
+    "rating": 8
+  },
+  {
+    "id": 20,
+    "bookId": 19,
+    "startedOn": "2024-03-30",
+    "finishedOn": "2024-04-21",
+    "format": "Audiobook",
+    "rating": 10
+  },
+  {
+    "id": 21,
+    "bookId": 66,
+    "startedOn": "2024-04-21",
+    "finishedOn": "2024-04-24",
+    "format": "Print",
+    "rating": 6
+  },
+  {
+    "id": 22,
+    "bookId": 113,
+    "startedOn": "2024-04-30",
+    "finishedOn": "2024-05-04",
+    "format": "Kindle",
+    "rating": null
+  },
+  {
+    "id": 23,
+    "bookId": 35,
+    "startedOn": "2024-05-03",
+    "finishedOn": "2024-05-08",
+    "format": "Print",
+    "rating": 4
+  },
+  {
+    "id": 24,
+    "bookId": 82,
+    "startedOn": "2024-05-07",
+    "finishedOn": "2024-05-13",
+    "format": "Audiobook",
+    "rating": 9
+  },
+  {
+    "id": 25,
+    "bookId": 4,
+    "startedOn": "2024-05-10",
+    "finishedOn": "2024-05-17",
+    "format": "Print",
+    "rating": 8
+  },
+  {
+    "id": 26,
+    "bookId": 51,
+    "startedOn": "2024-05-14",
+    "finishedOn": "2024-05-22",
+    "format": "Kindle",
+    "rating": 9
+  },
+  {
+    "id": 27,
+    "bookId": 98,
+    "startedOn": "2024-05-26",
+    "finishedOn": "2024-06-04",
+    "format": "Print",
+    "rating": 5
+  },
+  {
+    "id": 28,
+    "bookId": 20,
+    "startedOn": "2024-06-01",
+    "finishedOn": "2024-06-11",
+    "format": "Audiobook",
+    "rating": 8
+  },
+  {
+    "id": 29,
+    "bookId": 67,
+    "startedOn": "2024-06-08",
+    "finishedOn": "2024-06-19",
+    "format": "Print",
+    "rating": null
+  },
+  {
+    "id": 30,
+    "bookId": 114,
+    "startedOn": "2024-06-22",
+    "finishedOn": "2024-07-04",
+    "format": "Kindle",
+    "rating": 6
+  },
+  {
+    "id": 31,
+    "bookId": 36,
+    "startedOn": "2024-06-24",
+    "finishedOn": "2024-07-07",
+    "format": "Print",
+    "rating": 7
+  },
+  {
+    "id": 32,
+    "bookId": 83,
+    "startedOn": "2024-06-26",
+    "finishedOn": "2024-07-10",
+    "format": "Audiobook",
+    "rating": 4
+  },
+  {
+    "id": 33,
+    "bookId": 5,
+    "startedOn": "2024-06-28",
+    "finishedOn": "2024-07-13",
+    "format": "Print",
+    "rating": 9
+  },
+  {
+    "id": 34,
+    "bookId": 52,
+    "startedOn": "2024-07-01",
+    "finishedOn": "2024-07-17",
+    "format": "Kindle",
+    "rating": 8
+  },
+  {
+    "id": 35,
+    "bookId": 99,
+    "startedOn": "2024-07-03",
+    "finishedOn": "2024-07-20",
+    "format": "Print",
+    "rating": 9
+  },
+  {
+    "id": 36,
+    "bookId": 21,
+    "startedOn": "2024-07-05",
+    "finishedOn": "2024-07-23",
+    "format": "Audiobook",
+    "rating": null
+  },
+  {
+    "id": 37,
+    "bookId": 68,
+    "startedOn": "2024-07-16",
+    "finishedOn": "2024-08-04",
+    "format": "Print",
+    "rating": 8
+  },
+  {
+    "id": 38,
+    "bookId": 115,
+    "startedOn": "2024-07-20",
+    "finishedOn": "2024-08-09",
+    "format": "Kindle",
+    "rating": 10
+  },
+  {
+    "id": 39,
+    "bookId": 37,
+    "startedOn": "2024-07-25",
+    "finishedOn": "2024-08-15",
+    "format": "Print",
+    "rating": 6
+  },
+  {
+    "id": 40,
+    "bookId": 84,
+    "startedOn": "2024-07-30",
+    "finishedOn": "2024-08-21",
+    "format": "Audiobook",
+    "rating": 7
+  },
+  {
+    "id": 41,
+    "bookId": 6,
+    "startedOn": "2024-09-01",
+    "finishedOn": "2024-09-04",
+    "format": "Print",
+    "rating": 4
+  },
+  {
+    "id": 42,
+    "bookId": 53,
+    "startedOn": "2024-09-03",
+    "finishedOn": "2024-09-07",
+    "format": "Kindle",
+    "rating": 9
+  },
+  {
+    "id": 43,
+    "bookId": 100,
+    "startedOn": "2024-09-06",
+    "finishedOn": "2024-09-11",
+    "format": "Print",
+    "rating": null
+  },
+  {
+    "id": 44,
+    "bookId": 22,
+    "startedOn": "2024-09-09",
+    "finishedOn": "2024-09-15",
+    "format": "Audiobook",
+    "rating": 9
+  },
+  {
+    "id": 45,
+    "bookId": 69,
+    "startedOn": "2024-09-12",
+    "finishedOn": "2024-09-19",
+    "format": "Print",
+    "rating": 5
+  },
+  {
+    "id": 46,
+    "bookId": 116,
+    "startedOn": "2024-09-15",
+    "finishedOn": "2024-09-23",
+    "format": "Kindle",
+    "rating": 8
+  },
+  {
+    "id": 47,
+    "bookId": 38,
+    "startedOn": "2024-09-25",
+    "finishedOn": "2024-10-04",
+    "format": "Print",
+    "rating": 10
+  },
+  {
+    "id": 48,
+    "bookId": 85,
+    "startedOn": "2024-09-28",
+    "finishedOn": "2024-10-08",
+    "format": "Audiobook",
+    "rating": 6
+  },
+  {
+    "id": 49,
+    "bookId": 7,
+    "startedOn": "2024-10-02",
+    "finishedOn": "2024-10-13",
+    "format": "Print",
+    "rating": 7
+  },
+  {
+    "id": 50,
+    "bookId": 54,
+    "startedOn": "2024-10-05",
+    "finishedOn": "2024-10-17",
+    "format": "Kindle",
+    "rating": null
+  },
+  {
+    "id": 51,
+    "bookId": 101,
+    "startedOn": "2024-10-09",
+    "finishedOn": "2024-10-22",
+    "format": "Print",
+    "rating": 9
+  },
+  {
+    "id": 52,
+    "bookId": 23,
+    "startedOn": "2024-10-21",
+    "finishedOn": "2024-11-04",
+    "format": "Audiobook",
+    "rating": 8
+  },
+  {
+    "id": 53,
+    "bookId": 70,
+    "startedOn": "2024-10-23",
+    "finishedOn": "2024-11-07",
+    "format": "Print",
+    "rating": 9
+  },
+  {
+    "id": 54,
+    "bookId": 117,
+    "startedOn": "2024-10-26",
+    "finishedOn": "2024-11-11",
+    "format": "Kindle",
+    "rating": 5
+  },
+  {
+    "id": 55,
+    "bookId": 39,
+    "startedOn": "2024-10-29",
+    "finishedOn": "2024-11-15",
+    "format": "Print",
+    "rating": 8
+  },
+  {
+    "id": 56,
+    "bookId": 86,
+    "startedOn": "2024-11-01",
+    "finishedOn": "2024-11-19",
+    "format": "Audiobook",
+    "rating": 10
+  },
+  {
+    "id": 57,
+    "bookId": 8,
+    "startedOn": "2024-11-04",
+    "finishedOn": "2024-11-23",
+    "format": "Print",
+    "rating": null
+  },
+  {
+    "id": 58,
+    "bookId": 55,
+    "startedOn": "2024-11-14",
+    "finishedOn": "2024-12-04",
+    "format": "Kindle",
+    "rating": 7
+  },
+  {
+    "id": 59,
+    "bookId": 102,
+    "startedOn": "2024-11-20",
+    "finishedOn": "2024-12-11",
+    "format": "Print",
+    "rating": 4
+  },
+  {
+    "id": 60,
+    "bookId": 24,
+    "startedOn": "2024-11-27",
+    "finishedOn": "2024-12-19",
+    "format": "Audiobook",
+    "rating": 9
+  },
+  {
+    "id": 61,
+    "bookId": 71,
+    "startedOn": "2025-01-01",
+    "finishedOn": "2025-01-04",
+    "format": "Print",
+    "rating": 8
+  },
+  {
+    "id": 62,
+    "bookId": 118,
+    "startedOn": "2025-01-03",
+    "finishedOn": "2025-01-07",
+    "format": "Kindle",
+    "rating": 9
+  },
+  {
+    "id": 63,
+    "bookId": 40,
+    "startedOn": "2025-01-06",
+    "finishedOn": "2025-01-11",
+    "format": "Print",
+    "rating": 5
+  },
+  {
+    "id": 64,
+    "bookId": 87,
+    "startedOn": "2025-01-09",
+    "finishedOn": "2025-01-15",
+    "format": "Audiobook",
+    "rating": null
+  },
+  {
+    "id": 65,
+    "bookId": 9,
+    "startedOn": "2025-01-12",
+    "finishedOn": "2025-01-19",
+    "format": "Print",
+    "rating": 10
+  },
+  {
+    "id": 66,
+    "bookId": 56,
+    "startedOn": "2025-01-15",
+    "finishedOn": "2025-01-23",
+    "format": "Kindle",
+    "rating": 6
+  },
+  {
+    "id": 67,
+    "bookId": 103,
+    "startedOn": "2025-01-26",
+    "finishedOn": "2025-02-04",
+    "format": "Print",
+    "rating": 7
+  },
+  {
+    "id": 68,
+    "bookId": 25,
+    "startedOn": "2025-01-30",
+    "finishedOn": "2025-02-09",
+    "format": "Audiobook",
+    "rating": 4
+  },
+  {
+    "id": 69,
+    "bookId": 72,
+    "startedOn": "2025-02-04",
+    "finishedOn": "2025-02-15",
+    "format": "Print",
+    "rating": 9
+  },
+  {
+    "id": 70,
+    "bookId": 119,
+    "startedOn": "2025-02-09",
+    "finishedOn": "2025-02-21",
+    "format": "Kindle",
+    "rating": 8
+  },
+  {
+    "id": 71,
+    "bookId": 41,
+    "startedOn": "2025-02-19",
+    "finishedOn": "2025-03-04",
+    "format": "Print",
+    "rating": null
+  },
+  {
+    "id": 72,
+    "bookId": 88,
+    "startedOn": "2025-02-21",
+    "finishedOn": "2025-03-07",
+    "format": "Audiobook",
+    "rating": 5
+  },
+  {
+    "id": 73,
+    "bookId": 10,
+    "startedOn": "2025-02-23",
+    "finishedOn": "2025-03-10",
+    "format": "Print",
+    "rating": 8
+  },
+  {
+    "id": 74,
+    "bookId": 57,
+    "startedOn": "2025-02-25",
+    "finishedOn": "2025-03-13",
+    "format": "Kindle",
+    "rating": 10
+  },
+  {
+    "id": 75,
+    "bookId": 104,
+    "startedOn": "2025-02-28",
+    "finishedOn": "2025-03-17",
+    "format": "Print",
+    "rating": 6
+  },
+  {
+    "id": 76,
+    "bookId": 26,
+    "startedOn": "2025-03-02",
+    "finishedOn": "2025-03-20",
+    "format": "Audiobook",
+    "rating": 7
+  },
+  {
+    "id": 77,
+    "bookId": 73,
+    "startedOn": "2025-03-04",
+    "finishedOn": "2025-03-23",
+    "format": "Print",
+    "rating": 4
+  },
+  {
+    "id": 78,
+    "bookId": 120,
+    "startedOn": "2025-03-15",
+    "finishedOn": "2025-04-04",
+    "format": "Kindle",
+    "rating": null
+  },
+  {
+    "id": 79,
+    "bookId": 42,
+    "startedOn": "2025-03-21",
+    "finishedOn": "2025-04-11",
+    "format": "Print",
+    "rating": 8
+  },
+  {
+    "id": 80,
+    "bookId": 89,
+    "startedOn": "2025-03-28",
+    "finishedOn": "2025-04-19",
+    "format": "Audiobook",
+    "rating": 9
+  },
+  {
+    "id": 81,
+    "bookId": 11,
+    "startedOn": "2025-05-01",
+    "finishedOn": "2025-05-04",
+    "format": "Print",
+    "rating": 5
+  },
+  {
+    "id": 82,
+    "bookId": 58,
+    "startedOn": "2025-05-02",
+    "finishedOn": "2025-05-06",
+    "format": "Kindle",
+    "rating": 8
+  },
+  {
+    "id": 83,
+    "bookId": 105,
+    "startedOn": "2025-05-04",
+    "finishedOn": "2025-05-09",
+    "format": "Print",
+    "rating": 10
+  },
+  {
+    "id": 84,
+    "bookId": 27,
+    "startedOn": "2025-05-06",
+    "finishedOn": "2025-05-12",
+    "format": "Audiobook",
+    "rating": 6
+  },
+  {
+    "id": 85,
+    "bookId": 74,
+    "startedOn": "2025-05-08",
+    "finishedOn": "2025-05-15",
+    "format": "Print",
+    "rating": null
+  },
+  {
+    "id": 86,
+    "bookId": 121,
+    "startedOn": "2025-05-10",
+    "finishedOn": "2025-05-18",
+    "format": "Kindle",
+    "rating": 4
+  },
+  {
+    "id": 87,
+    "bookId": 43,
+    "startedOn": "2025-05-12",
+    "finishedOn": "2025-05-21",
+    "format": "Print",
+    "rating": 9
+  },
+  {
+    "id": 88,
+    "bookId": 90,
+    "startedOn": "2025-05-14",
+    "finishedOn": "2025-05-24",
+    "format": "Audiobook",
+    "rating": 8
+  },
+  {
+    "id": 89,
+    "bookId": 12,
+    "startedOn": "2025-05-24",
+    "finishedOn": "2025-06-04",
+    "format": "Print",
+    "rating": 9
+  },
+  {
+    "id": 90,
+    "bookId": 59,
+    "startedOn": "2025-05-26",
+    "finishedOn": "2025-06-07",
+    "format": "Kindle",
+    "rating": 5
+  },
+  {
+    "id": 91,
+    "bookId": 106,
+    "startedOn": "2025-05-29",
+    "finishedOn": "2025-06-11",
+    "format": "Print",
+    "rating": 8
+  },
+  {
+    "id": 92,
+    "bookId": 28,
+    "startedOn": "2025-06-01",
+    "finishedOn": "2025-06-15",
+    "format": "Audiobook",
+    "rating": null
+  },
+  {
+    "id": 93,
+    "bookId": 75,
+    "startedOn": "2025-06-04",
+    "finishedOn": "2025-06-19",
+    "format": "Print",
+    "rating": 6
+  },
+  {
+    "id": 94,
+    "bookId": 122,
+    "startedOn": "2025-06-07",
+    "finishedOn": "2025-06-23",
+    "format": "Kindle",
+    "rating": 7
+  },
+  {
+    "id": 95,
+    "bookId": 44,
+    "startedOn": "2025-06-17",
+    "finishedOn": "2025-07-04",
+    "format": "Print",
+    "rating": 4
+  },
+  {
+    "id": 96,
+    "bookId": 91,
+    "startedOn": "2025-06-21",
+    "finishedOn": "2025-07-09",
+    "format": "Audiobook",
+    "rating": 9
+  },
+  {
+    "id": 97,
+    "bookId": 13,
+    "startedOn": "2025-06-26",
+    "finishedOn": "2025-07-15",
+    "format": "Print",
+    "rating": 8
+  },
+  {
+    "id": 98,
+    "bookId": 60,
+    "startedOn": "2025-07-01",
+    "finishedOn": "2025-07-21",
+    "format": "Kindle",
+    "rating": 9
+  },
+  {
+    "id": 99,
+    "bookId": 107,
+    "startedOn": "2025-07-14",
+    "finishedOn": "2025-08-04",
+    "format": "Print",
+    "rating": null
+  },
+  {
+    "id": 100,
+    "bookId": 29,
+    "startedOn": "2025-07-15",
+    "finishedOn": "2025-08-06",
+    "format": "Audiobook",
+    "rating": 8
+  },
+  {
+    "id": 101,
+    "bookId": 76,
+    "startedOn": "2025-08-06",
+    "finishedOn": "2025-08-09",
+    "format": "Print",
+    "rating": 10
+  },
+  {
+    "id": 102,
+    "bookId": 123,
+    "startedOn": "2025-08-07",
+    "finishedOn": "2025-08-11",
+    "format": "Kindle",
+    "rating": 6
+  },
+  {
+    "id": 103,
+    "bookId": 45,
+    "startedOn": "2025-08-09",
+    "finishedOn": "2025-08-14",
+    "format": "Print",
+    "rating": 7
+  },
+  {
+    "id": 104,
+    "bookId": 92,
+    "startedOn": "2025-08-10",
+    "finishedOn": "2025-08-16",
+    "format": "Audiobook",
+    "rating": 4
+  },
+  {
+    "id": 105,
+    "bookId": 14,
+    "startedOn": "2025-08-12",
+    "finishedOn": "2025-08-19",
+    "format": "Print",
+    "rating": 9
+  },
+  {
+    "id": 106,
+    "bookId": 61,
+    "startedOn": "2025-08-13",
+    "finishedOn": "2025-08-21",
+    "format": "Kindle",
+    "rating": null
+  },
+  {
+    "id": 107,
+    "bookId": 108,
+    "startedOn": "2025-08-15",
+    "finishedOn": "2025-08-24",
+    "format": "Print",
+    "rating": 9
+  },
+  {
+    "id": 108,
+    "bookId": 30,
+    "startedOn": "2025-08-25",
+    "finishedOn": "2025-09-04",
+    "format": "Audiobook",
+    "rating": 5
+  },
+  {
+    "id": 109,
+    "bookId": 77,
+    "startedOn": "2025-08-28",
+    "finishedOn": "2025-09-08",
+    "format": "Print",
+    "rating": 8
+  },
+  {
+    "id": 110,
+    "bookId": 124,
+    "startedOn": "2025-09-01",
+    "finishedOn": "2025-09-13",
+    "format": "Kindle",
+    "rating": 10
+  },
+  {
+    "id": 111,
+    "bookId": 46,
+    "startedOn": "2025-09-04",
+    "finishedOn": "2025-09-17",
+    "format": "Print",
+    "rating": 6
+  },
+  {
+    "id": 112,
+    "bookId": 93,
+    "startedOn": "2025-09-08",
+    "finishedOn": "2025-09-22",
+    "format": "Audiobook",
+    "rating": 7
+  },
+  {
+    "id": 113,
+    "bookId": 15,
+    "startedOn": "2025-09-19",
+    "finishedOn": "2025-10-04",
+    "format": "Print",
+    "rating": null
+  },
+  {
+    "id": 114,
+    "bookId": 62,
+    "startedOn": "2025-09-21",
+    "finishedOn": "2025-10-07",
+    "format": "Kindle",
+    "rating": 9
+  },
+  {
+    "id": 115,
+    "bookId": 109,
+    "startedOn": "2025-09-23",
+    "finishedOn": "2025-10-10",
+    "format": "Print",
+    "rating": 8
+  },
+  {
+    "id": 116,
+    "bookId": 31,
+    "startedOn": "2025-09-25",
+    "finishedOn": "2025-10-13",
+    "format": "Audiobook",
+    "rating": 9
+  },
+  {
+    "id": 117,
+    "bookId": 78,
+    "startedOn": "2025-09-28",
+    "finishedOn": "2025-10-17",
+    "format": "Print",
+    "rating": 5
+  },
+  {
+    "id": 118,
+    "bookId": 125,
+    "startedOn": "2025-09-30",
+    "finishedOn": "2025-10-20",
+    "format": "Kindle",
+    "rating": 8
+  },
+  {
+    "id": 119,
+    "bookId": 47,
+    "startedOn": "2025-10-02",
+    "finishedOn": "2025-10-23",
+    "format": "Print",
+    "rating": 10
+  },
+  {
+    "id": 120,
+    "bookId": 94,
+    "startedOn": "2025-10-13",
+    "finishedOn": "2025-11-04",
+    "format": "Audiobook",
+    "rating": null
+  },
+  {
+    "id": 121,
+    "bookId": 16,
+    "startedOn": "2025-11-04",
+    "finishedOn": "2025-11-07",
+    "format": "Print",
+    "rating": 7
+  },
+  {
+    "id": 122,
+    "bookId": 63,
+    "startedOn": "2025-11-07",
+    "finishedOn": "2025-11-11",
+    "format": "Kindle",
+    "rating": 4
+  },
+  {
+    "id": 123,
+    "bookId": 110,
+    "startedOn": "2025-11-10",
+    "finishedOn": "2025-11-15",
+    "format": "Print",
+    "rating": 9
+  },
+  {
+    "id": 124,
+    "bookId": 32,
+    "startedOn": "2025-11-13",
+    "finishedOn": "2025-11-19",
+    "format": "Audiobook",
+    "rating": 8
+  },
+  {
+    "id": 125,
+    "bookId": 79,
+    "startedOn": "2025-11-16",
+    "finishedOn": "2025-11-23",
+    "format": "Print",
+    "rating": 9
+  },
+  {
+    "id": 126,
+    "bookId": 2,
+    "startedOn": "2025-11-26",
+    "finishedOn": "2025-12-04",
+    "format": "Kindle",
+    "rating": 5
+  },
+  {
+    "id": 127,
+    "bookId": 9,
+    "startedOn": "2025-11-29",
+    "finishedOn": "2025-12-08",
+    "format": "Print",
+    "rating": null
+  },
+  {
+    "id": 128,
+    "bookId": 33,
+    "startedOn": "2025-12-03",
+    "finishedOn": "2025-12-13",
+    "format": "Audiobook",
+    "rating": 10
+  },
+  {
+    "id": 129,
+    "bookId": 55,
+    "startedOn": "2025-12-06",
+    "finishedOn": "2025-12-17",
+    "format": "Print",
+    "rating": 6
+  },
+  {
+    "id": 130,
+    "bookId": 80,
+    "startedOn": "2025-12-10",
+    "finishedOn": "2025-12-22",
+    "format": "Kindle",
+    "rating": 7
+  }
+]

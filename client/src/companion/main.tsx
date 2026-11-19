@@ -1,0 +1,10 @@
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { BrowserRouter } from 'react-router';
+import { ScrollReturnProvider } from '@/components/ScrollReturnProvider';
+import { CompanionApp } from './CompanionApp';
+import '../index.css';
+import './native.css';
+const queryClient = new QueryClient({ defaultOptions: { queries: { staleTime: 30_000, retry: false, refetchOnWindowFocus: false } } });
+createRoot(document.getElementById('root')!).render(<StrictMode><QueryClientProvider client={queryClient}><BrowserRouter><ScrollReturnProvider native><CompanionApp /></ScrollReturnProvider></BrowserRouter></QueryClientProvider></StrictMode>);

@@ -1,0 +1,13 @@
+{
+  "name": "reading-tracker",
+  "private": true,
+  "scripts": {
+    "setup": "npm install --prefix client && npm install --prefix server",
+    "dev": "concurrently -n server,client -c blue,green \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "test": "npm test --prefix server",
+    "check": "npm run lint --prefix client && npm test --prefix client -- --exclude '**/*.integration.test.ts' && npm test --prefix server -- --exclude '**/*.integration.test.ts' && npm run build --prefix client && npm run build:companion --prefix client && npm run build --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
