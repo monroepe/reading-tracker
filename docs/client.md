@@ -24,7 +24,9 @@ without saving changes to the sample library.
 
 ### Preview locally
 
-With Node 24 and the client dependencies installed, run from the repository root:
+With Node 24 and both client and server dependencies installed, run from the
+repository root. The build type-checks client code that imports server schemas
+and integration tests that import server code.
 
 ```sh
 npm run build:demo --prefix client
@@ -46,5 +48,5 @@ rerun the build command and refresh the browser.
 
 Subsequent default-branch pushes publish automatically through
 [`.github/workflows/demo-pages.yml`](../.github/workflows/demo-pages.yml). The
-workflow installs client dependencies, builds the demo, and uploads only
+workflow installs both sets of dependencies, builds the demo, and uploads only
 `client/dist-demo/`.
