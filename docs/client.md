@@ -1,7 +1,7 @@
 # Client
 
 The web app uses React, React Router, and TanStack Query. The Android companion
-and portfolio demo reuse feature screens with their own data providers.
+and browser demo reuse feature screens with their own data providers.
 For web setup and project-wide checks, see the [README](../README.md).
 
 ## Code map
@@ -16,11 +16,14 @@ Vite proxies web requests under `/api` to the local server on port 3000.
 See the [server guide](server.md) for the API and the [Android guide](android.md)
 for the phone transfer workflow.
 
-## Portfolio demo
+## Demo
 
 The demo runs in the browser with bundled sample data. No API, database, or
 account is required. Add Book and Log Reading let visitors preview the forms
 without saving changes to the sample library.
+
+The sample catalog includes [The Guardian’s 100 best novels of all time](https://www.theguardian.com/books/ng-interactive/2026/may/12/the-100-best-novels-of-all-time)
+and 25 nonfiction titles, with fictional reading activity.
 
 ### Preview locally
 
