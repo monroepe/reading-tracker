@@ -51,5 +51,7 @@ rerun the build command and refresh the browser.
 
 Subsequent default-branch pushes publish automatically through
 [`.github/workflows/demo-pages.yml`](../.github/workflows/demo-pages.yml). The
-workflow installs both sets of dependencies, builds the demo, and uploads only
-`client/dist-demo/`.
+build job installs both sets of dependencies, builds the demo, and uploads only
+`client/dist-demo/`. The deploy job publishes that artifact. If the build
+succeeded and deployment failed, rerun the deploy job while the artifact is
+still available. If the artifact is missing or expired, start a fresh workflow run.
